@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body{
+    font-family: "DM Sans" , sans-serif;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 500 !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.nav-link {
+  font-size: 18px !important;
+  
+}
+
+.navbar-brand {
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  animation: logo 2s ease-in-out 0s 1 normal forwards;
+}
+
+@keyframes logo {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.carousel-inner {
+    height: 400px; 
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100%; 
+}
+
+.carousel-item img {
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+h3{
+    font-family: "Raleway",sans-serif;
+    font-weight:400;
+}
+img{
+    object-fit: cover;
+}
+ul{
+    list-style: none;
+}
+li{
+    cursor: pointer;
+}
